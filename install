@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# install the program by putting all scripts where they are expected
+
+cp -r transmitter.service /etc/systemd/system/transmitter.service
+cp -r transmitter.liq /home/wjrh/bin/transmitter.liq
+cp -r config.liq /home/wjrh/bin/config.liq
+cp -r log-script /home/wjrh/bin/log-script
+
+systemctl daemon-reload
+systemctl enable transmitter
+systemctl start transmitter

@@ -4,9 +4,9 @@
 # Pulls the WJRH stream from icecast and plays it on 
 # the standard audio output
 
-%include "config.liq"
+%include "/home/wjrh/bin/config.liq"
 
-set("log.file.path","/home/wjrh/logs/repeater.log")
+set("log.file.path","/home/wjrh/logs/.log")
 set("log.stdout", true)
 
 # Set up our 3 sources

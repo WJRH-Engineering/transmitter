@@ -1,0 +1,12 @@
+[Unit]
+Description=liquid soap daemon
+After=network.target
+
+[Service]
+User=wjrh
+ExecStart=/home/wjrh/bin/transmitter.liq
+Restart=always
+WorkingDirectory=/home/wjrh
+
+[Install]
+WantedBy=multi-user.target
