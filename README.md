@@ -1,2 +1,3 @@
-# stream-repeater
-A LiquidSoap script that tunes in to the wjrh stream and plays it on the computers speakers
+# Transmitter
+A LiquidSoap script that runs in the hogg hall transmitter room,
+which decides what plays on air
